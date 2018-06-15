@@ -12,19 +12,15 @@ With this framework you can toggle features in ABAP-Code at runtime. This enable
 * Eclipse + UI5/ADT Tools
 
 ## How to run it?
-1. Create a new ABAP class which inherits the class `z_sy_feature` (see examples/z_xx_feature.abap).
+1. Create a new ABAP class which inherits the class `z_sy_feature` (see [examples/zcl_feature_test.abap](https://github.com/pacroy/Featuretoggle/blob/master/examples/zcl_feature_test.clas.abap)).
 2. Define new feature via class attribute 
-3. Toggle feature via the transaktion `z_sy_feature` (opens UI5 frontend)
-4. Check if feature is enabled by checking if `z_sy_feature=>feature_xx = abap_true` 
+3. Toggle feature via the transaction `z_sy_feature` (which opens UI5 frontend)
+4. Check if feature is enabled by checking e.g. `zcl_feature_test=>test = abap_true` 
 
 :warning: Features should never be enabled in production system!
 
 ### Examples
 see /examples
-
-### ToDo
-* Change repository structure for easy cloning
-* Import UI5-GUI via abapGit
 
 ## Installation
 
@@ -33,22 +29,11 @@ see /examples
 1. Checkout/clone subfolder /src/abap/ via [abapGit](https://github.com/larshp/abapGit)
 2. Check transaction `SICF` if node `/default_host/sap/bc/sy_feature` was created
 3. Activate node `/default_host/sap/bc/sy_feature`
-4. Check if feature is enabled by checking if `z_sy_feature=>feature_xx = abap_true`
-
 
 ### Installation UI5 Frontend 
 
 1. Checkout/clone subfolder `/src/ui5/` 
-2. Import project into Eclipse 
-    * choose File->Import->Existing Projects into Workspace
-    * choose cloned project folder
-    * import project
-3. Link projekt to a new BSP-Container in your SAP-System 
-    * right click the newly created project and choose Team->Share Project
-    * choose SAPUI5 ABAP Repository 
-    * choose the connection to your SAP-System
-    * choose "Create a new BSP Application" and fill out the required fields  (name must be `z_sy_feature`)
-4. Deploy UI5 App to your SAP-System
-    * right click the project and choose Team->Submit
-    * select all objects
-    * click finish
+2. Run program `/UI5/UI5_REPOSITORY_LOAD`
+3. Name UI5 app `z_sy_feature` and click Execute
+4. Select the folder `WebContent` in `/src/ui5`
+5. Click green label to upload
