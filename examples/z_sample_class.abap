@@ -19,7 +19,7 @@ CLASS  z_sample_class IMPLEMENTATION.
         select * from sflight into table @DATA(sflight).
 
         "new Feature 
-        IF z_xx_feature=>feature_a = abap_true.
+        IF zcl_feature_test=>test = abap_true.
 
             DELETE sflight WHERE carrid = 'AA'.
 
