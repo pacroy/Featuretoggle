@@ -5,7 +5,7 @@
    <VSEOCLASS>
     <CLSNAME>Z_SY_FEATURE</CLSNAME>
     <VERSION>1</VERSION>
-    <LANGU>D</LANGU>
+    <LANGU>E</LANGU>
     <DESCRIPT>Feature toggles</DESCRIPT>
     <EXPOSURE>2</EXPOSURE>
     <STATE>1</STATE>
@@ -18,7 +18,7 @@
     <SEOCOMPOTX>
      <CLSNAME>Z_SY_FEATURE</CLSNAME>
      <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
-     <LANGU>D</LANGU>
+     <LANGU>E</LANGU>
      <DESCRIPT>Automagische Initialisierung der Feature-Toggles</DESCRIPT>
     </SEOCOMPOTX>
    </DESCRIPTIONS>
