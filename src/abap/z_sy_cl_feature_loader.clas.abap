@@ -1,6 +1,7 @@
 CLASS z_sy_cl_feature_loader DEFINITION
   PUBLIC
-  CREATE PUBLIC .
+  CREATE PUBLIC
+  GLOBAL FRIENDS z_sy_feature .
 
   PUBLIC SECTION.
 
