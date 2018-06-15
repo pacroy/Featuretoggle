@@ -6,7 +6,7 @@
     itemSelect="handleMenuItemPress">
     <u:MenuItem
       id = "MenuAlleAus"
-      text="Alle Schalter deaktivieren"
+      text="Disable All Switches"
       icon="sap-icon://stop"/>
   </u:Menu>
 </core:FragmentDefinition>

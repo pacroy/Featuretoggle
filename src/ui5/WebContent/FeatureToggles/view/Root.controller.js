@@ -120,10 +120,10 @@
         var changedFeatures = this.getChangedFeatures();
         var that = this;
         $.sap.require("sap.m.MessageBox");
-        sap.m.MessageBox.show($.sap.formatMessage("{0} Features werden geändert", [changedFeatures.length]),
+        sap.m.MessageBox.show($.sap.formatMessage("{0} features to be updated", [changedFeatures.length]),
            {
                icon: sap.m.MessageBox.Icon.INFORMATION,
-               title: "Features aktivenen/deaktivieren",
+               title: "Activate/deactivate Features",
                actions: [sap.m.MessageBox.Action.YES, sap.m.MessageBox.Action.NO],
                defaultAction: sap.m.MessageBox.Action.NO,
                initialFocus: sap.m.MessageBox.Action.NO,
@@ -169,14 +169,14 @@
     writeFeatureDone: function (data, textStatus, jqXHR) {
         this.reloadData();
         $.sap.require("sap.m.MessageToast");
-        sap.m.MessageToast.show("Änderungen gespeichert. Es kann einige Minuten dauern, bis die Änderungen auf allen Servern aktiv werden.");
+        sap.m.MessageToast.show("Changes saved. It may take a few minutes for the changes to take effect on all servers.");
     },
     writeFeatureFailed: function (jqXHR, textStatus, errorThrown) {
         $.sap.require("sap.m.MessageBox");
         var bCompact = !!this.getView().$().closest(".sapUiSizeCompact").length;
         sap.m.MessageBox.show(
-            "Fehler beim Speichern der Änderungen: " + errorThrown,
-            {  title: "Fehler",    styleClass: bCompact ? "sapUiSizeCompact" : ""  }
+            "Error saving changes: " + errorThrown,
+            {  title: "Error",    styleClass: bCompact ? "sapUiSizeCompact" : ""  }
         );       
         this.reloadData();
     },
@@ -314,7 +314,7 @@
                 var oFilterFrom = new sap.ui.model.Filter({ path: "DATE", operator: sap.ui.model.FilterOperator.GE, value1: oDatePickerFrom._lastValue, value2: "X", and: true });
                 this._oFilterVariables.push(oFilterFrom);
                 var sDate = this._oDate.formatValue(oDatePickerFrom._lastValue, "string");
-                filterString = filterString + " Von Datum " + sDate;
+                filterString = filterString + " From date " + sDate;
             }
         }
         var oDatePickerTo = this._oDialog.getFilterItems()[1].getCustomControl();
@@ -324,7 +324,7 @@
                 this._oFilterVariables.push(oFilterTo);
                
                 var sDate = this._oDate.formatValue(oDatePickerTo._lastValue, "string");
-                filterString = filterString + " Bis Datum " + sDate;
+                filterString = filterString + " To date " + sDate;
             }
         }
 

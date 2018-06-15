@@ -4,28 +4,28 @@
   <ViewSettingsDialog
 		confirm="handleViewSettingsConfirm">
     <sortItems>
-      <ViewSettingsItem text="Klasse"         key="SO_CLASS" />
+      <ViewSettingsItem text="Class"         key="SO_CLASS" />
       <ViewSettingsItem text="Feature"        key="SO_NAME"  selected="true"  />
-      <ViewSettingsItem text="Datum"          key="SO_DATE" />
-      <ViewSettingsItem text="Abhängigkeiten" key="SO_DEPENDENCIES" />
-      <ViewSettingsItem text="Aktuell"        key="SO_CURRENTSTATE" />
+      <ViewSettingsItem text="Date"          key="SO_DATE" />
+      <ViewSettingsItem text="Dependencies" key="SO_DEPENDENCIES" />
+      <ViewSettingsItem text="Current"        key="SO_CURRENTSTATE" />
     </sortItems>
     
     <groupItems>
-      <ViewSettingsItem text="Klasse"  key="GR_CLASS"  selected="true" />
-      <ViewSettingsItem text="Datum"   key="GR_DATE" />
-      <ViewSettingsItem text="Aktuell" key="GR_CURRENTSTATE" />
+      <ViewSettingsItem text="Class"  key="GR_CLASS"  selected="true" />
+      <ViewSettingsItem text="Date"   key="GR_DATE" />
+      <ViewSettingsItem text="Current" key="GR_CURRENTSTATE" />
     </groupItems>
 
     <filterItems>
-      <ViewSettingsCustomItem  id="idCustomFilterItemFrom"  text="Ab Datum"   key="dateFrom">
+      <ViewSettingsCustomItem  id="idCustomFilterItemFrom"  text="From Date"   key="dateFrom">
         <customControl>
-          <DatePicker id="DPFROM" valueFormat="yyyyMMdd" placeholder="Datum eingeben ..." change="handleChange" class="sapUiSmallMarginBottom" />
+          <DatePicker id="DPFROM" valueFormat="yyyyMMdd" placeholder="Enter Date ..." change="handleChange" class="sapUiSmallMarginBottom" />
         </customControl>
       </ViewSettingsCustomItem>      
-      <ViewSettingsCustomItem   id="idCustomFilterItemTo" text="Bis Datum" key="dateTo">
+      <ViewSettingsCustomItem   id="idCustomFilterItemTo" text="To Date" key="dateTo">
         <customControl>
-          <DatePicker id="DPTO" valueFormat="yyyyMMdd" placeholder="Datum eingeben ..." change="handleChange" class="sapUiSmallMarginBottom" />
+          <DatePicker id="DPTO" valueFormat="yyyyMMdd" placeholder="Enter Date ..." change="handleChange" class="sapUiSmallMarginBottom" />
         </customControl>
       </ViewSettingsCustomItem>
     </filterItems>

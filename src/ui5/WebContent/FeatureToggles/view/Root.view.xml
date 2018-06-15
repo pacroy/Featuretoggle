@@ -4,9 +4,9 @@
       <Page title="Feature Toggles">
         <headerContent>
           <l:HorizontalLayout class="sapUiSmallMargin" >
-            <Button icon="sap-icon://decline" tooltip="Alle Filter löschen" press=".handleClearAllFilters"/>
+            <Button icon="sap-icon://decline" tooltip="Delete all filters" press=".handleClearAllFilters"/>
             <ToolbarSeparator/>
-            <SearchField id="SearchField" placeholder="Liste filtern" liveChange="._onFilterInputChange"/>
+            <SearchField id="SearchField" placeholder="Filter list" liveChange="._onFilterInputChange"/>
             <Button tooltip="View Settings" icon="sap-icon://drop-down-list" press=".handleViewSettingsDialogButtonPressed" />
           </l:HorizontalLayout>
         </headerContent>
@@ -27,17 +27,17 @@
               <Text text="Feature" />
             </Column>
             <Column width="80px">
-              <Text text="Datum" />
+              <Text text="Date" />
             </Column>
             <Column>
-              <Text text="Abhängigkeiten"/>
+              <Text text="Dependencies"/>
             </Column>
             <Column width="80px">
-              <Text text="Aktuell"/>
+              <Text text="Current"/>
             </Column>
             <Column width="80px">
               <!--<Text text="Neuer Zustand"/>   -->
-              <Link text="Zustand" tooltip="Neuer Zustand" press=".handleZustandButtonPressed"/>
+              <Link text="State" tooltip="New State" press=".handleZustandButtonPressed"/>
             </Column>
             <!--<Column width="240px">
               <Text text="Später aktivieren"/>
@@ -51,7 +51,7 @@
                 <Button text="{NAME}" tooltip="{CLASS}=>{NAME}" type="Transparent" press="._onDependencyPress"/>
               </l:HorizontalLayout>
               <!--<Text text="{ path: 'DEPENDENCIES', formatter: '.formatDependenciesColumnText' }"/>-->
-              <Text text="{= ${CURRENTSTATE} ? 'EIN': 'AUS' }" />
+              <Text text="{= ${CURRENTSTATE} ? 'ON': 'OFF' }" />
               <Switch state="{NewState}" change=".featureActiveSwitchChanged" />
               <!--<l:HorizontalLayout>
                 <DateTimeInput dateValue="{NewActivationTime}" visible="{= ${NewState} &amp;&amp; ${CURRENTSTATE} !== ${NewState} }" placeholder="Aktivierungszeitpunkt vorgeben (optional)" type="DateTime" change=".featureActivationDateChanged"/>
@@ -63,8 +63,8 @@
         <footer>
           <Toolbar>
             <ToolbarSpacer/>
-            <Button text="Speichern" type="Accept" press=".savePressed"/>
-            <Button text="Zurücksetzen" type="Reject" press=".resetPressed"/>
+            <Button text="Save" type="Accept" press=".savePressed"/>
+            <Button text="Reset to Default" type="Reject" press=".resetPressed"/>
           </Toolbar>
         </footer>
       </Page>
