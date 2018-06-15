@@ -4,12 +4,12 @@
   <asx:values>
    <DD04V>
     <ROLLNAME>Z_SY_FEATURENAME</ROLLNAME>
-    <DDLANGUAGE>D</DDLANGUAGE>
+    <DDLANGUAGE>E</DDLANGUAGE>
     <HEADLEN>07</HEADLEN>
     <SCRLEN1>07</SCRLEN1>
     <SCRLEN2>07</SCRLEN2>
     <SCRLEN3>07</SCRLEN3>
-    <DDTEXT>Name eines Features</DDTEXT>
+    <DDTEXT>Name of a feature</DDTEXT>
     <REPTEXT>Feature</REPTEXT>
     <SCRTEXT_S>Feature</SCRTEXT_S>
     <SCRTEXT_M>Feature</SCRTEXT_M>

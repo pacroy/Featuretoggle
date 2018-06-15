@@ -4,9 +4,9 @@
   <asx:values>
    <DD02V>
     <TABNAME>ZSY_FEATUREREFERENCE</TABNAME>
-    <DDLANGUAGE>D</DDLANGUAGE>
+    <DDLANGUAGE>E</DDLANGUAGE>
     <TABCLASS>INTTAB</TABCLASS>
-    <DDTEXT>Referenz auf ein Feature</DDTEXT>
+    <DDTEXT>Reference to a feature</DDTEXT>
    </DD02V>
    <DD03P_TABLE>
     <DD03P>
