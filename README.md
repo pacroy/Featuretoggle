@@ -16,7 +16,7 @@ With this framework you can toggle features in ABAP-Code at runtime. This enable
 2. Define new feature via class attribute 
 3. Toggle feature via the transaction `z_sy_feature` (which opens UI5 frontend)
 4. Check if feature is enabled by checking e.g. `zcl_feature_test=>test = abap_true` 
-5. Write authorization check in z_sy_cl_featurelist_rest->check_write_auth
+5. Write authorization check in `z_sy_cl_featurelist_rest->check_write_auth`
 
 :warning: Features should never be enabled in production system!
 
