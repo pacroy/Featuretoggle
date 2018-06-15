@@ -8,7 +8,7 @@
     <VARCL>X</VARCL>
     <SUBC>1</SUBC>
     <RSTAT>K</RSTAT>
-    <RLOAD>D</RLOAD>
+    <RLOAD>E</RLOAD>
     <FIXPT>X</FIXPT>
     <UCCHECK>X</UCCHECK>
    </PROGDIR>
@@ -16,48 +16,48 @@
     <item>
      <ID>I</ID>
      <KEY>001</KEY>
-     <ENTRY>Selektion</ENTRY>
+     <ENTRY>Selection</ENTRY>
      <LENGTH>19</LENGTH>
     </item>
     <item>
      <ID>I</ID>
      <KEY>002</KEY>
-     <ENTRY>Steuerung</ENTRY>
+     <ENTRY>Control</ENTRY>
      <LENGTH>19</LENGTH>
     </item>
     <item>
      <ID>R</ID>
-     <ENTRY>Löschen aller Feature-Toggle</ENTRY>
-     <LENGTH>35</LENGTH>
+     <ENTRY>Delete All Feature Toggle</ENTRY>
+     <LENGTH>25</LENGTH>
     </item>
     <item>
      <ID>S</ID>
      <KEY>PA_DELE</KEY>
-     <ENTRY>Schalter löschen</ENTRY>
+     <ENTRY>Delete Swtiches</ENTRY>
      <LENGTH>24</LENGTH>
     </item>
     <item>
      <ID>S</ID>
      <KEY>PA_SHOW</KEY>
-     <ENTRY>Schalter anzeigen</ENTRY>
+     <ENTRY>Show Switches</ENTRY>
      <LENGTH>25</LENGTH>
     </item>
     <item>
      <ID>S</ID>
      <KEY>SO_ACT</KEY>
-     <ENTRY>Kennzeichen Aktiv</ENTRY>
+     <ENTRY>Active</ENTRY>
      <LENGTH>25</LENGTH>
     </item>
     <item>
      <ID>S</ID>
      <KEY>SO_CLA</KEY>
-     <ENTRY>Klasse</ENTRY>
+     <ENTRY>Class</ENTRY>
      <LENGTH>14</LENGTH>
     </item>
     <item>
      <ID>S</ID>
      <KEY>SO_FEA</KEY>
-     <ENTRY>Feature-ID</ENTRY>
+     <ENTRY>Feature</ENTRY>
      <LENGTH>18</LENGTH>
     </item>
    </TPOOL>

@@ -103,17 +103,17 @@ FORM daten_loeschen .
   FIELD-SYMBOLS: <ls_data>   LIKE gs_data.
 
   LOOP AT gt_data ASSIGNING <ls_data>.
-    WRITE: / 'Schalter', <ls_data>-feature,
-             'Aktiv-Kz.:', <ls_data>-active, ' wird gelöscht!'.
+    WRITE: / 'Switch', <ls_data>-feature,
+             'Active:', <ls_data>-active, ' will be deleted!'.
   ENDLOOP.
 
   DELETE zsy_tfeature FROM TABLE gt_data.
 
   IF sy-subrc = 0.
-    WRITE: / 'Schalter wurden gelöscht!'.
+    WRITE: / 'Switches have been deleted!'.
     COMMIT WORK.
   ELSE.
-    WRITE: / 'Fehler beim Löschen der Daten, bitte prüfen!'.
+    WRITE: / 'Error deleting the data, please check!'.
     ROLLBACK WORK.
   ENDIF.
 

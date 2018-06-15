@@ -10,7 +10,7 @@
     <TCODE>Z_SY_FEATURE</TCODE>
    </TSTCC>
    <TSTCT>
-    <SPRSL>D</SPRSL>
+    <SPRSL>E</SPRSL>
     <TCODE>Z_SY_FEATURE</TCODE>
     <TTEXT>Feature Toggles GUI</TTEXT>
    </TSTCT>
