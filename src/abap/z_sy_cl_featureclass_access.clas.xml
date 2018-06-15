@@ -6,7 +6,7 @@
     <CLSNAME>Z_SY_CL_FEATURECLASS_ACCESS</CLSNAME>
     <VERSION>1</VERSION>
     <LANGU>E</LANGU>
-    <DESCRIPT>Zugriff auf die Feature-Attribute einer Feature-Toggle-Klass</DESCRIPT>
+    <DESCRIPT>Access to the feature attributes of a feature toggle class</DESCRIPT>
     <EXPOSURE>2</EXPOSURE>
     <STATE>1</STATE>
     <CLSFINAL>X</CLSFINAL>

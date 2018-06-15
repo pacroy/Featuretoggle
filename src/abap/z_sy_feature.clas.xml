@@ -19,7 +19,7 @@
      <CLSNAME>Z_SY_FEATURE</CLSNAME>
      <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
      <LANGU>E</LANGU>
-     <DESCRIPT>Automagische Initialisierung der Feature-Toggles</DESCRIPT>
+     <DESCRIPT>Automatic initialization of the feature toggles</DESCRIPT>
     </SEOCOMPOTX>
    </DESCRIPTIONS>
   </asx:values>

@@ -6,7 +6,7 @@
     <CLSNAME>Z_SY_CL_FEATURELIST_REST</CLSNAME>
     <VERSION>1</VERSION>
     <LANGU>E</LANGU>
-    <DESCRIPT>REST-Resource für die Feature-Toggle-Liste</DESCRIPT>
+    <DESCRIPT>REST resource for the feature toggle list</DESCRIPT>
     <EXPOSURE>2</EXPOSURE>
     <STATE>1</STATE>
     <CLSFINAL>X</CLSFINAL>
@@ -19,19 +19,19 @@
      <CLSNAME>Z_SY_CL_FEATURELIST_REST</CLSNAME>
      <CMPNAME>CHECK_WRITE_AUTH</CMPNAME>
      <LANGU>E</LANGU>
-     <DESCRIPT>Prüft, ob im System vom User geändert werden darf.</DESCRIPT>
+     <DESCRIPT>Check if the user may change the system.</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
      <CLSNAME>Z_SY_CL_FEATURELIST_REST</CLSNAME>
      <CMPNAME>C_DEVCLASS</CMPNAME>
      <LANGU>E</LANGU>
-     <DESCRIPT>Paket</DESCRIPT>
+     <DESCRIPT>Package</DESCRIPT>
     </SEOCOMPOTX>
     <SEOCOMPOTX>
      <CLSNAME>Z_SY_CL_FEATURELIST_REST</CLSNAME>
      <CMPNAME>C_REPNAME_PUT</CMPNAME>
      <LANGU>E</LANGU>
-     <DESCRIPT>ABAP-Programmname</DESCRIPT>
+     <DESCRIPT>ABAP Program</DESCRIPT>
     </SEOCOMPOTX>
    </DESCRIPTIONS>
   </asx:values>

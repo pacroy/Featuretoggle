@@ -6,7 +6,7 @@
     <CLSNAME>Z_SY_CL_FEATURE_WEBSERVICE</CLSNAME>
     <VERSION>1</VERSION>
     <LANGU>E</LANGU>
-    <DESCRIPT>Webservice für die Feature-Verwaltung</DESCRIPT>
+    <DESCRIPT>Web service for feature management</DESCRIPT>
     <EXPOSURE>2</EXPOSURE>
     <STATE>1</STATE>
     <CLSFINAL>X</CLSFINAL>
